@@ -1,0 +1,60 @@
+* {
+    font-family: 'roboto';
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 90%;
+}
+
+@font-face{
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.header img{
+    width: 8%;
+    height: 12%;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+.intro{
+    text-align: center;
+
+}
+.content{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.imgSet1, .imgSet2{
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-items: center;
+    margin-bottom: -7%;
+}
+.imgSet1 img, .imgSet2 img{
+    width:50%;
+    height: 65%;
+  
+    
+}
+img#book1, img#book3{
+    margin-right: 40px;
+}
+
+footer p{
+    text-align: center;
+    opacity: 0.5;
+    margin-top:3%;
+}
